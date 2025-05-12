@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="cookie">
+        <label class="titulo">FILOSOFER CLICKER</label>
+        <img src="images/filosofia.png" class="frutos" onclick="clickeando()">
+    </div>
+    <div class="derecha">
+        <div class="count">
+            <label for="">Tu nivel filosofico es de: </label>
+            <input type="text" class="contador" id="contador" readonly>
+        </div>
+        <div class="upgrades">
+            <div class="mejoras">
+                <div class="aristoteles" id="tarjeta">
+                    <label class="descripcion">1NV/s</label>
+                    <img src="images/aristoteles.png" class="icono" onclick="arist()">
+                    <label class="descripcion">Cantidad de Aristoteles: </label>
+                    <input type="text" class="contador-habilidad" id="aristoteles" readonly>
+                    <label class="descripcion">Precio de Aristoteles: </label>
+                    <input type="text" class="contador-habilidad" id="aristoteles-price" readonly>
+                </div>
+                <div class="diogenes" id="tarjeta">
+                    <label class="descripcion">5NV/s</label>
+                    <img src="images/perro.png" class="icono" onclick="diog()">
+                    <label class="descripcion">Cantidad de Diogenes: </label>
+                    <input type="text" class="contador-habilidad" id="diogenes" readonly>
+                    <label class="descripcion">Precio de Diogenes: </label>
+                    <input type="text" class="contador-habilidad" id="diogenes-price" readonly>
+                </div>
+                <div class="nietzsche" id="tarjeta">
+                    <label class="descripcion">10NV/s</label>
+                    <img src="images/rostro.png" class="icono" onclick="niet()">
+                    <label class="descripcion">Cantidad de Nietzsche: </label>
+                    <input type="text" class="contador-habilidad" id="aleman" readonly>
+                    <label class="descripcion">Precio de Nietzsche: </label>
+                    <input type="text" class="contador-habilidad" id="aleman-price" readonly>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
