@@ -64,6 +64,10 @@ body {
 }
 
 .mejoras {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 80%;
     height: 80%;
     background-color: grey;
@@ -90,6 +94,10 @@ body {
     text-align: center;
     font-size: 20px;
     width: 100px;
+}
+
+.total {
+    display: flex;
 }
 
 /*
